@@ -1,1 +1,1 @@
-Information about projects are in pdf file visible in most external folder
+Information about project are in pdf file visible in most external folder
