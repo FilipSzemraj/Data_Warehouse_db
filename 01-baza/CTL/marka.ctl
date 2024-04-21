@@ -1,0 +1,8 @@
+LOAD DATA
+INFILE 'CSV\marka.csv'
+BADFILE 'BAD\marka.bad'
+DISCARDFILE 'DSC\marka.dsc'
+APPEND INTO TABLE marka
+FIELDS TERMINATED BY ","
+TRAILING NULLCOLS
+(id_marka,nazwa)

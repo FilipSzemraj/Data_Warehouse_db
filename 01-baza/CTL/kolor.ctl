@@ -1,0 +1,8 @@
+LOAD DATA
+INFILE 'CSV\kolor.csv'
+BADFILE 'BAD\kolor.bad'
+DISCARDFILE 'DSC\kolor.dsc'
+APPEND INTO TABLE kolor
+FIELDS TERMINATED BY ","
+TRAILING NULLCOLS
+(id_kolor,nazwa)
